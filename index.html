@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="headline">
+            <div class="headline-left">
+                <h1 class="pokery">Pokery</h1>
+                <h2 class="balance" id="cash">Cash: 999</h2> 
+                <h2 class="balance" id="points">Points: 999</h2>
+                <h2 class="balance" id="diamonds">Diamonds: 999</h2>
+            </div>
+            <div class="headline-right">
+                <img class="self" id="avatar" src="images/demo.jpg" alt="avatar">
+                <h2 class="self" id="username">Chrisfan</h2>
+                <button class="store">Store</button>
+                <button class="setting">Settings</button>
+            </div>
+        </div>
+        
+        <div class="menu">
+            <div class="custom">
+                <div class="custom-title">
+                    <h2 id="custom-title">CUSTOM</h2>
+                </div>
+                <div class="custom-choices">
+                    <button id="no-limit-button">No Limit</button>
+                    <button id="short-deck-button">Short Deck</button>
+                    <button id="tournament-button">Tournament</button>
+                </div>  
+            </div>
+            <div class="online">
+                <h2 id="online-title">ONLINE</h2>
+                <div class="online-choices">
+                    <button id="practice-button">No-limit Practice</button>
+                    <button id="rank-nolimit-button">No-limit Rank (Solo)</button>
+                    <button id="rank-tournament-button">Tournament Rank (Solo)</button>
+                </div>
+            </div> 
+        </div>
+
+        <div class="join-match">
+            <label for="pin">Enter PIN to join an ongoing match</label>
+            <input type="text" id="pin" name="pin-enterbox" maxlength="6" size="6">
+            <input type="button" id="pin" name="join-button" value="Join">
+        </div>
+    
+    </body>
+</html>
