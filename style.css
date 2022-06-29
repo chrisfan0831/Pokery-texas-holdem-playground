@@ -24,9 +24,18 @@ body {
     font-family: fantasy;
 }
 
+.pokery:hover {
+    color: gold;
+    cursor: pointer;
+}
+
 .pokery, .balance {
     margin: 35px;
 }
+
+/* .balance {
+    min-width: 150px;
+} */
 
 .headline-right {
     display: inline-flex;
@@ -42,6 +51,13 @@ body {
     width: 50px;
     height: 50px;
     margin-top: 10px;
+    border: 3px solid black; 
+}
+
+#avatar:hover {
+    border: 2px;
+    border: 3px solid white; 
+    cursor: pointer;
 }
 
 #username {
@@ -69,27 +85,27 @@ body {
     background-color: #3e8e41;
 }
 
+/* End of Headline */
+/* Begin of Menu */
+
 .menu {
     margin-top: 10px;
-    /* margin-left: 18px; */
     display: flex;
     color: aliceblue;
     font-family: sans-serif;
     display: flex;
     justify-content: flex-start;
-    /* border-bottom: 2px;
-    border-bottom-style: solid; 
-    line-height: 0px;
-    color: aliceblue; */
 }
 
 .custom, .online {
     margin-left: 35px;
+    
 }
 
-#online-title {
-    font-size: 25px;
-    margin-left: 120px;
+.custom-title, .online-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .custom-choices button, .online-choices button {
@@ -102,8 +118,6 @@ body {
     display: block; /* Make the buttons appear below each other */
 }
 
-  
-  /* Add a background color on hover */
 .custom-choices button:hover, .online-choices button:hover{
 background-color: #3e8e41;
 }
