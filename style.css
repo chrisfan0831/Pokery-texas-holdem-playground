@@ -55,7 +55,7 @@ body {
     border: 0.25vw solid black; 
 }
 #avatar:hover {
-    border: 0.25vw solid #3e8e41; 
+    border: 0.25vw solid white; 
     cursor: pointer;
 }
 #username {
