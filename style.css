@@ -1,160 +1,152 @@
 body {
-    margin: 0;
     background-image: url("images/gambling-poker-entertainment.jpg");
 }
 
+/* ************************* */
+/* Begin of headline styling */
+/* ************************* */
 .headline {
     display: flex;
     border-bottom: 2px;
     border-bottom-style: solid; 
-    line-height: 0px;
+    line-height: 0;
     color: aliceblue;
 }
-
+/* left portion of headline */
 .headline-left {
     display: inline-flex;
     justify-content: flex-start;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 1vw;
     width: 100%;
-    margin-right: 0%;
+    float: left;
 }
-
 .pokery {
     font-family: fantasy;
 }
-
 .pokery:hover {
     color: gold;
     cursor: pointer;
 }
-
-.pokery, .balance {
-    margin: 35px;
+.pokery, .balance-type, .balance-value {
+    margin: 2vw;
 }
-
-/* .balance {
-    min-width: 150px;
-} */
-
+.balance-type {
+    margin-right: 0;
+}
+.balance-value {
+    margin-left: 1vw;
+}
+/* right portion of headline */
 .headline-right {
     display: inline-flex;
     justify-content: flex-end;
     color: aliceblue;
     font-family: monospace;
-    font-size: 15px;
-    margin-left: 0%;
+    font-size: 1vw;
+    margin-right: 2vw;
+    float: right;
 }
-
 #avatar {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    border: 3px solid black; 
+    width: 4vw;
+    height: 4vw;
+    margin-bottom: 0.25vw;
+    border: 0.25vw solid black; 
 }
-
 #avatar:hover {
-    border: 2px;
-    border: 3px solid white; 
+    border: 0.25vw solid #3e8e41; 
     cursor: pointer;
 }
-
 #username {
-    margin-top: 35px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
-
 .store, .setting {
-    height: 40px;
-    width: 90px;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
+    height: 3vw;
+    width: 6vw;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
     background-color: #04AA6D; /* Green background */
-    border: 1px solid green; /* Green border */
+    border: 0.1vw solid green; /* Green border */
     color: white; 
     cursor: pointer; 
     display: block; 
     border-radius: 30px;
     
 }
-
 .store:hover, .setting:hover {
     background-color: #3e8e41;
 }
 
-/* End of Headline */
-/* Begin of Menu */
-
+/* ********************* */
+/* Begin of menu styling */
+/* ********************* */
 .menu {
-    margin-top: 10px;
+    margin-top: 0.5vw;
     display: flex;
     color: aliceblue;
     font-family: sans-serif;
     display: flex;
     justify-content: flex-start;
 }
-
 .custom, .online {
-    margin-left: 35px;
+    margin-left: 2vw;
     
 }
-
 .custom-title, .online-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1vw;
 }
-
 .custom-choices button, .online-choices button {
     background-color: #04AA6D; /* Green background */
-    border: 1px solid green; /* Green border */
+    border: 0.1vw solid green; /* Green border */
     color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
+    padding: 1vw 2vw; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: 100%; 
     display: block; /* Make the buttons appear below each other */
 }
-
 .custom-choices button:hover, .online-choices button:hover{
 background-color: #3e8e41;
 }
-
 #no-limit-button, #short-deck-button, #tournament-button,
 #rank-nolimit-button, #practice-button, #rank-tournament-button {
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
     border-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
+/* ************************* */
+/* Begin of join-match styling */
+/* ************************* */
 .join-match {
-    font-size: 30px;
-    margin: 20px 0px 0px 35px;
+    font-size: 2vw;
+    margin: 1vw 0 0 2vw;
     color: aliceblue;
     font-family: sans-serif;
 }
-
 input[name="pin-enterbox"] {
-    width: 73px;
-    height: 24px;
-    font-size: 20px;
-    padding-top: 3px;
+    width: 6vw;
+    height: 2vw;
+    font-size: 1.6vw;
+    padding-top: 0.2vw;
     border-radius: 12px;
     background-color: aliceblue;
 }
-
 input[name="join-button"] {
     background-color: #04AA6D;
-    border: 1px solid green;
+    border: 0.1vw solid green;
     color: white;
-    font-size: 20px;
+    font-size: 1.6vw;
     cursor: pointer;
     border-radius: 12px;
 }
-
 input[name="join-button"]:hover {
     background-color: #3e8e41;
 }

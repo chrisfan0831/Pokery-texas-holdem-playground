@@ -2,8 +2,9 @@
 
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="Pokery Texas Holdem" content="Texas Holdem Playground">
+        <title>Pokery</title>
+        <meta application-name="Pokery Texas Holdem">
+        <meta name="Pokery" content="Texas Holdem Playground">
         <meta name="author" content="Chris Fan">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
@@ -13,9 +14,12 @@
         <div class="headline">
             <div class="headline-left">
                 <h1 class="pokery">Pokery</h1>
-                <h2 class="balance" id="cash">Cash: 999</h2> 
-                <h2 class="balance" id="points">Points: 999</h2>
-                <h2 class="balance" id="diamonds">Diamonds: 999</h2>
+                <h2 class="balance-type" id="cash">Cash:</h2> 
+                <h2 class="balance-value" id="cash-value">999</h2>
+                <h2 class="balance-type" id="points">Points:</h2>
+                <h2 class="balance-value" id="points-value">999</h2>
+                <h2 class="balance-type" id="diamonds">Diamonds:</h2>
+                <h2 class="balance-value" id="diamonds-value">999</h2>
             </div>
             <div class="headline-right">
                 <img class="self" id="avatar" src="images/demo.jpg" alt="avatar">
@@ -53,6 +57,5 @@
             <input type="text" id="pin" name="pin-enterbox" maxlength="6" size="6">
             <input type="button" id="pin" name="join-button" value="Join">
         </div>
-        
     </body>
 </html>
