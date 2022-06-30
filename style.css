@@ -71,7 +71,7 @@ body {
     margin-left: 0.5vw;
     background-color: #04AA6D; /* Green background */
     border: 0.1vw solid green; /* Green border */
-    color: white; 
+    color: aliceblue; 
     cursor: pointer; 
     display: block; 
     border-radius: 30px;
@@ -105,21 +105,18 @@ body {
 .custom-choices button, .online-choices button {
     background-color: #04AA6D; /* Green background */
     border: 0.1vw solid green; /* Green border */
-    color: white; /* White text */
+    color: aliceblue; /* White text */
     padding: 1vw 2vw; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: 100%; 
     display: block; /* Make the buttons appear below each other */
-}
-.custom-choices button:hover, .online-choices button:hover{
-background-color: #3e8e41;
-}
-#no-limit-button, #short-deck-button, #tournament-button,
-#rank-nolimit-button, #practice-button, #rank-tournament-button {
     font-size: 2vw;
     cursor: pointer;
     border-radius: 12px;
     margin-bottom: 1vw;
+}
+.custom-choices button:hover, .online-choices button:hover{
+background-color: #3e8e41;
 }
 
 /* ************************* */
@@ -142,7 +139,7 @@ input[name="pin-enterbox"] {
 input[name="join-button"] {
     background-color: #04AA6D;
     border: 0.1vw solid green;
-    color: white;
+    color: aliceblue;
     font-size: 1.6vw;
     cursor: pointer;
     border-radius: 12px;
